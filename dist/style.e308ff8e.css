@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #7a7a77;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  position: relative;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: inherit;
+  color: #12425e;
+}
+
+.news-list {
+  padding: 20px;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+  margin: 15px auto;
+  transition: transform 300ms ease-in;
+}
+
+.content:hover {
+  transform: translateY(-5px);
+}
+
+.content-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.content-title h2 {
+  width: fit-content;
+  margin: 0 15px 0 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #132a0b;
+}
+
+.content-title span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #92e9ac;
+}
+
+.content-info {
+  display: flex;
+  color: #7a7a77;
+}
+
+.user-name,
+.like,
+.time-ago {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.pagination {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: #7a7a77;
+}
+
+.pagination a {
+  margin: 0 10px;
+  background-color: #fff;
+  color: #7a7a77;
+}
+
+.contents {
+  background-color: #fff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.contents-title {
+  margin: 20px;
+}
+
+.contents-title h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #132a0b;
+}
+
+.contents-comment {
+  margin: 30px;
+}
+
+.comments-box {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #7a7a7736;
+}
+
+.comments-icon {
+  font-size: 12px;
+  color: #7a7a77;
+  text-shadow: 1px 1px 1px #7a7a77;
+}
+
+.comments-info {
+  display: flex;
+  font-size: 12px;
+  color: #7a7a77;
+}
+
+.comments-main p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
